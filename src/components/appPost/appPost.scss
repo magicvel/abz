@@ -1,0 +1,21 @@
+.post {
+    background-color: #E5E5E5;
+}
+
+.form {
+    margin: 0 auto;
+    width: 328px;
+    &__header {
+        margin: AUTO;
+        text-align: center;
+        padding-top: 140px;
+    }
+    &__input {
+        margin: 50px auto 0 auto;
+        text-align: center;
+
+    }
+    &__btn {
+        margin: 50px 114px 100px 114px;
+    }
+}

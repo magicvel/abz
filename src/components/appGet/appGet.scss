@@ -1,0 +1,37 @@
+@import '../../style/style.scss';
+
+.request {
+    background-color: #E5E5E5;
+    &__header{
+        margin: 0 auto;
+        padding-top: 140px;
+        height: 80px;
+        width: 328px;
+        text-align: center;
+
+        margin-bottom: 50px;
+    }
+    &__cards {
+        margin: 20px auto;
+        width: 328px;
+        height: 254px;
+        background-color: #fff;
+        border-radius: 10px;
+        &__img {
+            margin: 20px 129px;
+            border-radius: 100%;
+        }
+        &__info {
+
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+    }
+    &__btn {
+        margin-left: 130px;
+        margin-top: 50px;
+    }
+
+}
