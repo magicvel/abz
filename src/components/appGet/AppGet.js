@@ -12,6 +12,7 @@ class AppGet extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            
             error: null,
             isLoaded: false,
             items: [],
@@ -53,7 +54,7 @@ class AppGet extends Component {
                             <h1 className="request__header text_black">Working with GET request</h1>
                             
                                 {items.map (item => (
-                                    <div className="request__cards">
+                                    <div key={item.id} className="request__cards">
                                         <img className="request__cards__img" src={item.photo} alt="photo"/>
                                         <p className="request__cards__info">{item.name}</p>
                                         <p></p>
